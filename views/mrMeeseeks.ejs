@@ -1,0 +1,15 @@
+<%- include ('partials/head.ejs') %>
+<%- include ('partials/nav.ejs') %>
+<%- include ('partials/banner.ejs') %>
+
+<main>
+    <article>
+        <h3>Welcome to <%= heading %>'s page.</h3>
+        <p class="funParagraph">&para; Mr. Meeseeks is a four year old rex rabbit. He loves running around in circles and cuddles.</p>
+        <p>&para; Here is an image of Mr. Meeseeks waiting patiently for a fruit loop (not the cereal).</p>
+        <img src="images/<%= imageName %>.jpg" alt="<%= heading %>" width="75%" height="auto" id="articleImage">
+        
+    </article>
+</main>
+
+<%- include ('partials/footer.ejs') %>

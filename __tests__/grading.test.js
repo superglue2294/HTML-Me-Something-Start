@@ -9,8 +9,8 @@ const { window } = new JSDOM(fs.readFileSync(path.resolve(__dirname, "../index.h
 const { document } = window;
 const { screen } = require('@testing-library/jest-dom');
 
-let html = fs.readFileSync(path.resolve(__dirname, "../index.html"), 'utf8');
-let css = fs.readFileSync(path.resolve(__dirname, "../styles.css"), 'utf8')
+let html = fs.readFileSync(path.resolve(__dirname, "../views/index.ejs"), 'utf8');
+let css = fs.readFileSync(path.resolve(__dirname, "../public/css/styles.css"), 'utf8')
 
 describe ("Grading Tests: ", function () {
 

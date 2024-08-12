@@ -1,0 +1,15 @@
+<%- include ('partials/head.ejs') %>
+<%- include ('partials/nav.ejs') %>
+<%- include ('partials/banner.ejs') %>
+
+<main>
+    <article>
+        <h3>Welcome to <%= heading %>'s page.</h3>
+        <p class="funParagraph">&para; Teddy is four years old and is believed to be a labrador retriever, rhodesian ridgeback, and hound mix. He loves to play and cuddle.</p>
+        <p>&para; Here is an image of Teddy, as I force him to pose in front of an art piece.</p>
+        <img src="images/<%= imageName %>.jpg" alt="<%= heading %>" width="75%" height="auto" id="articleImage">
+        
+    </article>
+</main>
+
+<%- include ('partials/footer.ejs') %>
